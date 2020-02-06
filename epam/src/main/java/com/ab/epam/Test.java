@@ -52,14 +52,14 @@ public static void main(String[] args) {
                 MilkyBar c= new MilkyBar(chocolatecontent, choco_weight, choco_price, Choco_name, type);
                 list.add(c);
             }
-            else if(Choco_name.equals("FiveStar"))
+            else if(Choco_name.equals("Munch"))
             {
                 Munch f =new Munch(chocolatecontent, choco_weight, choco_price, Choco_name, type);
                 list.add(f);
             }
             else
             {
-              Gems g =new Gems(chocolatecontent, choco_weight, choco_price, Choco_name, type);
+              Eclairs g =new Eclairs(chocolatecontent, choco_weight, choco_price, Choco_name, type);
               list.add(g);
             }
 
