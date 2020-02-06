@@ -1,7 +1,7 @@
 package com.ab.epam;
 
 import java.util.*;
-class Chocolates_sorter implements Comparator<Gifts>
+class chocolatesmain implements Comparator<Gifts>
 {
 
     @Override

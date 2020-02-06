@@ -6,7 +6,7 @@ import java.util.Collections;
 import java.util.Scanner;
 
 
-class Test_driver
+class Test
 {
     static int get_totalweight(ArrayList<Gifts> al)
     {
@@ -91,7 +91,7 @@ public static void main(String[] args) {
     int totalweight = get_totalweight(list);
     System.out.println("The Total Weight is "+totalweight);
    
-    Collections.sort(list,new Chocolates_sorter());
+    Collections.sort(list,new chocolatesmain());
     System.out.println("After Sorting the Chocolates based on Weights");
     for(Gifts c: list)
     {
