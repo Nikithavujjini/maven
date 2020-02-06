@@ -49,12 +49,12 @@ public static void main(String[] args) {
             
             if(Choco_name.equals("Cadburry"))
             {
-                Cadburry c= new Cadburry(chocolatecontent, choco_weight, choco_price, Choco_name, type);
+                MilkyBar c= new MilkyBar(chocolatecontent, choco_weight, choco_price, Choco_name, type);
                 list.add(c);
             }
             else if(Choco_name.equals("FiveStart"))
             {
-                FiveStar f =new FiveStar(chocolatecontent, choco_weight, choco_price, Choco_name, type);
+                Munch f =new Munch(chocolatecontent, choco_weight, choco_price, Choco_name, type);
                 list.add(f);
             }
             else
