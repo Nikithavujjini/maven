@@ -11,7 +11,7 @@ public class Kheer extends Sweets
     @Override
     void description() 
     {
-    System.out.println("I am Halwa and I like to be more orange");
+    System.out.println("This is Kheer");
     }
     
 }

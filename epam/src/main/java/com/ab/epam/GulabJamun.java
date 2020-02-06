@@ -9,7 +9,7 @@ public class GulabJamun extends Sweets
 
     @Override
     void description() {
-        System.out.println("I am Gulab jamun i like to be in Brown colour");
+        System.out.println("This is GulabJamun");
     }
 
 }

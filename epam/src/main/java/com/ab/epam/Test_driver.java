@@ -47,12 +47,12 @@ public static void main(String[] args) {
             System.out.println("Enter the Chocolatename");
             Choco_name =sc.next();
             
-            if(Choco_name.equals("Cadburry"))
+            if(Choco_name.equals("MilkyBar"))
             {
                 MilkyBar c= new MilkyBar(chocolatecontent, choco_weight, choco_price, Choco_name, type);
                 list.add(c);
             }
-            else if(Choco_name.equals("FiveStart"))
+            else if(Choco_name.equals("FiveStar"))
             {
                 Munch f =new Munch(chocolatecontent, choco_weight, choco_price, Choco_name, type);
                 list.add(f);
@@ -79,7 +79,7 @@ public static void main(String[] args) {
                 GulabJamun g =new GulabJamun(sugarcontent, weight, price, sweetname, type);
                 list.add(g);
             }
-            else if(sweetname.equals("Halwa"))
+            else if(sweetname.equals("Kheer"))
             {
                 Kheer h =new Kheer(sugarcontent, weight, price, sweetname, type);
                 list.add(h);

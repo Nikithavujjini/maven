@@ -35,7 +35,7 @@ abstract void description();
  
 @Override
  public String toString() {
-     return " My name is "+this.sweetname+":  weight is "+this.weight+" Sweet content "+this.sugar_content+ " Sweet weight "+this.weight+" it costs around $ "+this.price+"\n";
+     return "Iam is "+this.sweetname+":  weight is "+this.weight+" Sweet content "+this.sugar_content+ " Sweet weight "+this.weight+" it costs around $ "+this.price+"\n";
  }
  
 }
